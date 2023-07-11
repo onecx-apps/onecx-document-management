@@ -48,9 +48,9 @@ __Interfaces are based on the TM-Forum standard [TMF 667](https://github.com/tmf
 
 ## Getting Started
 To get started with OneCX Document Management Software, please refer to the following installation and setup instructions specific to each component:
-* [OneCX Document Management SVC (Backend) - Getting Started]()
-* [OneCX Document Management UI (User Interface) - Getting Started]()
-* [OneCX Document Management BFF (Backend for Frontend) - Getting Started]()
+* [OneCX Document Management SVC (Backend) - Getting Started](https://github.com/onecx-apps/onecx-document-management-svc)
+* [OneCX Document Management UI (User Interface) - Getting Started](https://github.com/onecx-apps/onecx-document-management-ui)
+* [OneCX Document Management BFF (Backend for Frontend) - Getting Started](https://github.com/onecx-apps/onecx-document-management-bff)
 
 For detailed usage instructions and API documentation, please refer to the respective documentation files for each component.
 
