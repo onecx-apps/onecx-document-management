@@ -1,3 +1,6 @@
 name: document-management
 title: Document Management
 version: latest
+start_page: general:index.adoc
+nav:
+- modules/general/nav.adoc

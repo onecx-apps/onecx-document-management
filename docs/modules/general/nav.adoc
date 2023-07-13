@@ -1,2 +1,2 @@
-* Service
-** xref:getting-started.adoc[Getting Started]
+* General
+** xref:index.adoc[Getting Started]
