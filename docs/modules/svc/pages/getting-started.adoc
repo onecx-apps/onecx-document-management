@@ -25,13 +25,14 @@ Whether it's managing contracts, invoices, legal documents, or any other form of
 
 == Key Features
 
-Document Storage and Retrieval: Store and retrieve documents securely and efficiently.
-Metadata Management: Add and manage metadata to enhance document categorization and search capabilities.
-Access Control: Define access permissions and roles to control document visibility and editing rights.
-Search and Filters: Quickly locate documents using advanced search and filtering options.
-Version Control: Keep track of document versions and manage changes effectively.
-Collaboration: Enable collaboration by allowing multiple users to access and work on documents simultaneously.
-Integration Capabilities: Seamlessly integrate with other systems and tools for enhanced productivity.
+* Document Storage and Retrieval: Store and retrieve documents securely and efficiently.
+* Metadata Management: Add and manage metadata to enhance document categorization and search capabilities.
+* Access Control: Define access permissions and roles to control document visibility and editing rights.
+* Search and Filters: Quickly locate documents using advanced search and filtering options.
+* Version Control: Keep track of document versions and manage changes effectively.
+* Collaboration: Enable collaboration by allowing multiple users to access and work on documents simultaneously.
+* Integration Capabilities: Seamlessly integrate with other systems and tools for enhanced productivity.
+
 == Flexibility and Integration
 OneCX Document Management Software is designed with a modular and extensible architecture, allowing you to customize and integrate it with other components of the OneCX ecosystem.
 Think of it like building with Lego blocks – you can easily plug in additional modules and extend the functionality according to your specific needs.
@@ -50,20 +51,20 @@ It is a solution that consists of three main components: a backend service, a us
 
 The three components of OneCX Document Management Software are as follows:
 
-Document Management UI
-The user interface component is based on Angular, a popular JavaScript framework for building dynamic web applications.
-It offers a user-friendly and intuitive interface for interacting with the document management system.
-Users can perform actions such as uploading documents, searching, linking them with others or attaching files to it, etc..
+. Document Management UI
+  The user interface component is based on Angular, a popular JavaScript framework for building dynamic web applications.
+  It offers a user-friendly and intuitive interface for interacting with the document management system.
+  Users can perform actions such as uploading documents, searching, linking them with others or attaching files to it, etc..
 
-Document Management BFF
-The BFF layer acts as an intermediary between the frontend user interface and the backend service.
-It handles tasks such as data aggregation, transformation, and composition to provide an optimized API for the UI.
-The BFF layer is designed to enhance performance and simplify the integration of the frontend with the backend service.
+. Document Management BFF
+  The BFF layer acts as an intermediary between the frontend user interface and the backend service.
+  It handles tasks such as data aggregation, transformation, and composition to provide an optimized API for the UI.
+  The BFF layer is designed to enhance performance and simplify the integration of the frontend with the backend service.
 
-Document Management Backend
-This component provides the core functionality for document management.
-It handles tasks such as document storage, retrieval, metadata management, and access control.
-The backend is built cloud native using Quarkus.
+. Document Management Backend
+  This component provides the core functionality for document management.
+  It handles tasks such as document storage, retrieval, metadata management, and access control.
+  The backend is built cloud native using Quarkus.
 
 Interfaces are based on the TM-Forum standard link:https://github.com/tmforum-apis/TMF667_Document[TMF 667].
 
