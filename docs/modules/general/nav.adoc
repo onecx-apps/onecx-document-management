@@ -1,2 +1,1 @@
-* General
-** xref:index.adoc[Getting Started]
+* xref:general:index.adoc[General]
