@@ -5,3 +5,4 @@ start_page: general:index.adoc
 nav:
  - modules/general/nav.adoc
  - modules/svc/nav.adoc
+ - modules/ui/nav.adoc
