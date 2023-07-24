@@ -1,13 +1,5 @@
 = OneCX Document Management
 
-[options="header", frame=none]
-|===
-|Workflow | Status
-| OneCX Document Management UI | image:https://github.com/onecx-apps/onecx-document-management-ui/actions/workflows/build.yml/badge.svg[OneCX Document Management UI]
-| OneCX Document Management BFF | image:https://github.com/onecx-apps/onecx-document-management-bff/actions/workflows/build.yml/badge.svg[OneCX Document Management BFF]
-|OneCX Document Management SVC | image:https://github.com/onecx-apps/onecx-document-management-svc/actions/workflows/build.yml/badge.svg[OneCX Document Management SVC]
-|===
-
 == Licence
 This software is licensed under the Apache License, Version 2.0.
 You may obtain a copy of the license in the corresponding LICENSE file or visit the link:https://www.apache.org/licenses/LICENSE-2.0[Apache website] for more information.
