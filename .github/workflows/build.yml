@@ -1,0 +1,15 @@
+name: Build helm chart
+
+on:
+  push:
+    branches:
+      - 'main'
+      - 'fix/[0-9]+.[0-9]+.x'
+    paths:
+      - 'helm/**'      
+
+jobs:
+  helm:
+    uses: onecx-apps/ci-product/.github/workflows/build.yml@v1
+    secrets: inherit
+

@@ -1,0 +1,11 @@
+name: Update helm chart dependencies
+
+on:
+  workflow_dispatch:
+  repository_dispatch:
+    types: [helm-update-deps]
+
+jobs:
+  release:
+    uses: onecx-apps/ci-product/.github/workflows/helm-update-deps.yml@v1
+    secrets: inherit
