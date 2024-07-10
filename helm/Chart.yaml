@@ -1,0 +1,24 @@
+apiversion: v2
+name: onecx-document-management
+version: 0.0.0
+appversion: 0.0.0
+dependencies:
+- name: helm-product
+  version: ^0
+  repository: oci://ghcr.io/onecx/charts
+  alias: product
+- name: onecx-document-management-svc
+  version: "*-0"
+  repository: oci://ghcr.io/onecx-apps/charts
+  condition: "deployment.svc"
+  alias: "svc"
+- name: onecx-document-management-bff
+  version: "*-0"
+  repository: oci://ghcr.io/onecx-apps/charts
+  condition: "deployment.bff"
+  alias: "bff"
+- name: onecx-document-management-ui
+  version: "*-0"
+  repository: oci://ghcr.io/onecx-apps/charts
+  condition: "deployment.ui"
+  alias: "ui"

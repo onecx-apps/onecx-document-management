@@ -1,0 +1,13 @@
+deployment:
+  svc: true
+  bff: true
+  ui: true
+
+product:
+  info:
+    data:
+      description: "OneCX Document-Management"
+      imageUrl: ""
+      iconName: "file"
+      displayName: "OneCX Document-Management"
+      basePath: "/documents"
