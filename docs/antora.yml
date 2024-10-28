@@ -1,9 +1,9 @@
 name: onecx-document-management
 title: Document Management
 version: latest
-start_page: onecx-document-management:index.adoc
+start_page: general:index.adoc
 nav:
- - modules/onecx-document-management/nav.adoc
+ - modules/general/nav.adoc
  - modules/onecx-document-management-ui/nav.adoc
  - modules/onecx-document-management-bff/nav.adoc
  - modules/onecx-document-management-svc/nav.adoc
