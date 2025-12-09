@@ -1,9 +1,4 @@
-name: onecx-document-management
-title: Document Management
+# Define the same name space as used for the parent documentation project https://github.com/onecx/docs
+name: documentation
 version: latest
-start_page: general:index.adoc
-nav:
- - modules/general/nav.adoc
- - modules/onecx-document-management-ui/nav.adoc
- - modules/onecx-document-management-bff/nav.adoc
- - modules/onecx-document-management-svc/nav.adoc
+# Do not add any further properties here. This will affect the parent documentation project.
